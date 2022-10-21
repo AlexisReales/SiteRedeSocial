@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="ccontainer">
+
+            <div class="entrar">
+                <input type="text" id="email" placeholder="Email institucional"> <br>
+                <input type="password" id="senha" placeholder="Senha">
+
+                <div class="mostrarsenha">
+                    <input type="checkbox" id="mostrarsenha" onclick="mostrarocultarsenha()">Mostrar Senha <br>
+                    <script>
+                        function mostrarocultarsenha(){
+                            var senha = document.getElementById("senha");
+                            if(senha.type=="password"){
+                                senha.type = "text"
+                            }else{
+                                senha.type = "password";
+                            }
+                        }
+                    </script>
+                </div>
+
+                <button class="button" id="entrar">Entrar</button>
+    
+                <a href="/html/senha.html">Esqueceu sua senha?</a>
+            </div>
+
+            <div class="naocriada">
+                <button class="button" id="criarconta"><a href="/html/criar.html">Criar nova conta</a></button>
+            </div>
+            
+        </div>
+
+        <p>
+            <b>Crie uma perfil</b> e comece a conversar com seus amigos da instituição Sesi Senai agora mesmo!
+        </p>
+    </div>
+
+    <footer>
+        <p>
+           <b> Criador: Alexis Reales </b>
+        </p>
+        <p>
+            Gmail: alexisrealesb@gmail.com | Github:<a href="https://github.com/AlexisReales">AlexisReales</a> | Linkedin:<a href="https://www.linkedin.com/notifications/?filter=all">Alexis Reales</a>
+        </p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+.ccontainer{
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 15px;
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.email input{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.container buttons, a{
+    padding: 10px;
+}
+#cancelar a{
+    text-decoration: none;
+    color: black;
+}
+#pesquisar{
+    background-color: blueviolet;
+}
+#pesquisar a{
+    text-decoration: none;
+    color: white;
+}
+#pesquisar:hover{
+    background-color: rgb(101, 50, 150);
+}
+footer{
+    background-color: black;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: #551a8b;
+}
+footer a:hover{
+    color: #451b6b;
+}
